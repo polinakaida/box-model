@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 17.6px;
+}
+
+.content-header {
+width: 100%;
+background-image: url(./../images/background.jpg);
+background-size: cover; 
+background-color:rgb(58, 58, 58);
+color: whitesmoke;
+padding: 100px 26.4px 100px;
+}
+
+p {
+width: 70%;
+margin: 0 auto;
+padding: 17.6px 0px;
+}
+
+a {
+    color:dodgerblue;
+    text-decoration: none;
+}
+
+.content-header a {
+    display: inline-block;
+    margin: 8.800px;
+    padding: 17.600px 35.200px;
+    border: 1px solid whitesmoke;
+
+   color: inherit;  /* to delete?? когда я создам отдельно внизу. а можнт и нет если не создам */
+}
