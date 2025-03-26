@@ -1,27 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 17.6px;
 }
 
-.content-header {
-width: 100%;
-background-image: url(./../images/background.jpg);
-background-size: cover; 
-background-color:rgb(58, 58, 58);
-color: whitesmoke;
-padding: 100px 26.4px 100px;
-}
-
 p {
-width: 70%;
-margin: 0 auto;
-padding: 17.6px 0px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 17.6px 0px;
 }
 
-a {
-    color:dodgerblue;
-    text-decoration: none;
+h2 {
+    padding: 26.4px 0px;
+}
+
+.content-header {
+    width: 100%;
+    min-height: 450px;
+    padding: 100px 26.4px;
+    background-image: url(./../images/background.jpg);
+    background-size: cover; 
+    background-color:rgb(58, 58, 58);
+    color: white;
 }
 
 .content-header a {
@@ -29,6 +35,96 @@ a {
     margin: 8.800px;
     padding: 17.600px 35.200px;
     border: 1px solid whitesmoke;
+    color: inherit;  
+    }
 
-   color: inherit;  /* to delete?? когда я создам отдельно внизу. а можнт и нет если не создам */
+.section-a {
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+    padding: 26.4px 26.4px 35.2px;
+}
+
+.container {
+    width: 880px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section-a p {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.section-b {
+
+    padding: 35.2px 17.6px 17.6px;
+    background-color: rgb(58, 58, 58);
+}
+
+.section-b ul {
+    max-width: 880px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.section-b li {
+    display: inline-block;
+    width: calc(33.333% - 2%);
+    background-color: white;
+    box-sizing: border-box;
+    padding: 15px 0px;
+    margin-right: 2%;
+}
+
+.section-b li:last-child {
+    margin-right: 0;
+}
+
+.section-b h3 {
+    padding: 20.592px 0px;
+}
+
+.section-c {
+    width: 100%;
+    background-color: white;
+    padding: 35.2px;
+}
+
+.section-d {
+    width: 100%;
+    font-size: 0;
+}
+
+.content-box {
+    display: inline-block;
+    width: 50%;
+    padding: 35.2px;
+    background-color:cornflowerblue;
+    color: white;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 17.6px;
+}
+
+.content-box:last-child{ 
+    background-color:rgb(58, 58, 58);
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 35.2px;
+}
+footer p {
+    display: inline-block;
+    width: 49%;
+}
+
+a {
+    color:cornflowerblue;;
+    text-decoration: none;
 }
